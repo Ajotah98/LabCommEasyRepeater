@@ -1,0 +1,5 @@
+.root {
+    -fx-background-color:
+        radial-gradient(focus-angle 0deg, focus-distance 0%, center 50% 50%, radius 100%,
+        #FFFFFF 0%, #60C5C5 100%);
+}
