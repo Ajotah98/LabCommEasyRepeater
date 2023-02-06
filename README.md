@@ -17,7 +17,7 @@ A JavaFX application for establishing a connection and sending traces between a 
 1. Clone or download the repository
 2. Navigate to the root directory of the project
 3. Compile and run using the following command:
-javac initMain.java && java initMain
+```javac initMain.java && java initMain```
 
 
 ## Usage
@@ -28,7 +28,7 @@ javac initMain.java && java initMain
 ## Class Structure
 - Main class: `initMain.java` (starts the `main()` in `LabCommEasyRepeater.java`)
 - Controller class: `mainGUIcontroller.java`
-- Networking class: `LabCommEasyRepeater.java`
+- Start class (extendeds Application): `LabCommEasyRepeater.java`
 
 ## Contributing
 Contributions are welcome! Feel free to submit a pull request.
