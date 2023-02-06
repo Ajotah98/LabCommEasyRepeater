@@ -19,6 +19,9 @@ A JavaFX application for establishing a connection and sending traces between a 
 3. Compile and run using the following command:
 ```javac initMain.java && java initMain```
 
+## Screenshot
+![image](https://user-images.githubusercontent.com/91145535/217058534-58491462-0f9b-499d-9b1c-843a3ce5c735.png)
+
 
 ## Usage
 1. Use the `Set Connection` button to establish a connection with either a server or a client.
