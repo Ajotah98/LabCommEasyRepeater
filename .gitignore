@@ -37,8 +37,8 @@ build/
 ### Mac OS ###
 .DS_Store
 
-.mvn
+.mvn/
 
-out/*
+/out/
 
-lib/
+/lib/
