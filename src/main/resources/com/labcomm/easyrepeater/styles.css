@@ -1,5 +1,33 @@
 .root {
     -fx-background-color:
         radial-gradient(focus-angle 0deg, focus-distance 0%, center 50% 50%, radius 100%,
-        #FFFFFF 0%, #60C5C5 100%);
+        #FFFFFF 0%, #000935 100%);
+        -fx-text-fill: black;
+}
+.button {
+    -fx-background-color: rgba(0, 6, 74, 0.27);
+    -fx-text-fill: white;
+    -fx-background-radius: 3px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+.button:hover {
+    -fx-background-color: rgba(143, 150, 247, 0.27);
+}
+
+.choice-box1 {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+.choice-box1 .label {
+    -fx-background-color: rgba(0, 6, 74, 0.27);
+    -fx-text-fill: white;
+    -fx-background-radius: 3px;
+    -fx-padding: 3px;
+    -fx-font-size: 12px;
+}
+
+
+.label {
+    -fx-text-fill: white;
 }

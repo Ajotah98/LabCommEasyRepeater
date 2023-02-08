@@ -45,35 +45,35 @@
   <children>
       <AnchorPane prefHeight="400.0" prefWidth="600.0">
          <children>
-                  <Label layoutX="19.0" layoutY="99.0" text="Type: ">
+                  <Label layoutX="19.0" layoutY="99.0" text="Type: " styleClass="label">
                      <font>
                         <Font size="14.0" />
                      </font>
             </Label>
-                  <ChoiceBox fx:id="cbox" layoutX="56.0" layoutY="97.0" onMouseEntered="#choiceBoxType" prefHeight="25.0" prefWidth="81.0" />
+                  <ChoiceBox fx:id="cbox" layoutX="56.0" layoutY="97.0" onMouseEntered="#choiceBoxType" prefHeight="25.0" prefWidth="81.0" styleClass="choice-box1"/>
                   <TextField fx:id="iplabel" layoutX="54.0" layoutY="59.0" prefHeight="25.0" prefWidth="107.0" text="127.0.0.1" />
-                  <Label layoutX="168.0" layoutY="62.0" text="Port:">
+                  <Label layoutX="168.0" layoutY="62.0" text="Port:" styleClass="label">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
                   <TextField fx:id="portlabel" layoutX="201.0" layoutY="59.0" prefHeight="25.0" prefWidth="59.0" text="1998" />
-                  <Label layoutX="22.0" layoutY="62.0" text="IP:">
+                  <Label layoutX="22.0" layoutY="62.0" text="IP:" styleClass="label">
                      <font>
                         <Font size="14.0" />
                      </font>
             </Label>
-                  <Label layoutX="19.0" layoutY="28.0" prefHeight="20.0" prefWidth="138.0" text="Actual configuration" textAlignment="CENTER" underline="true">
+                  <Label layoutX="19.0" layoutY="28.0" prefHeight="20.0" prefWidth="138.0" text="Actual configuration" textAlignment="CENTER" underline="true" styleClass="label">
                      <font>
                         <Font size="14.0" />
                      </font>
             </Label>
-                  <Button fx:id="enviarTrama" layoutX="526.0" layoutY="356.0" mnemonicParsing="false" onAction="#handleSendTraceAction" text="Send trace">
+                  <Button fx:id="enviarTrama" layoutX="526.0" layoutY="356.0" mnemonicParsing="false" onAction="#handleSendTraceAction" text="Send trace" styleClass="button">
                      <font>
                         <Font size="14.0" />
                      </font>
             </Button>
-                  <Button fx:id="setconnection" layoutX="500.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleSetConnectionAction" text="Set connection">
+                  <Button fx:id="setconnection" layoutX="500.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleSetConnectionAction" text="Set connection" styleClass="button">
                      <font>
                         <Font size="14.0" />
                      </font>
