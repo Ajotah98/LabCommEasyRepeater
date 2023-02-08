@@ -35,45 +35,57 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.labcomm.easyrepeater.mainGUIController" stylesheets="@styles.css">
+<VBox prefHeight="400.0" prefWidth="640.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.labcomm.easyrepeater.mainGUIController">
   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Configure..." />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
       <AnchorPane prefHeight="400.0" prefWidth="600.0">
          <children>
-                  <Label layoutX="19.0" layoutY="99.0" text="Type: " styleClass="label">
+                  <Label layoutX="19.0" layoutY="99.0" styleClass="label" text="Type: ">
                      <font>
                         <Font size="14.0" />
                      </font>
             </Label>
-                  <ChoiceBox fx:id="cbox" layoutX="56.0" layoutY="97.0" onMouseEntered="#choiceBoxType" prefHeight="25.0" prefWidth="81.0" styleClass="choice-box1"/>
+                  <ChoiceBox fx:id="cbox" layoutX="56.0" layoutY="97.0" onMouseEntered="#choiceBoxType" prefHeight="25.0" prefWidth="81.0" styleClass="choice-box" />
                   <TextField fx:id="iplabel" layoutX="54.0" layoutY="59.0" prefHeight="25.0" prefWidth="107.0" text="127.0.0.1" />
-                  <Label layoutX="168.0" layoutY="62.0" text="Port:" styleClass="label">
+                  <Label layoutX="168.0" layoutY="62.0" styleClass="label" text="Port:">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
                   <TextField fx:id="portlabel" layoutX="201.0" layoutY="59.0" prefHeight="25.0" prefWidth="59.0" text="1998" />
-                  <Label layoutX="22.0" layoutY="62.0" text="IP:" styleClass="label">
+                  <Label layoutX="22.0" layoutY="62.0" styleClass="label" text="IP:">
                      <font>
                         <Font size="14.0" />
                      </font>
             </Label>
-                  <Label layoutX="19.0" layoutY="28.0" prefHeight="20.0" prefWidth="138.0" text="Actual configuration" textAlignment="CENTER" underline="true" styleClass="label">
+                  <Label layoutX="19.0" layoutY="28.0" prefHeight="20.0" prefWidth="138.0" styleClass="label" text="Actual configuration" textAlignment="CENTER" underline="true">
                      <font>
                         <Font size="14.0" />
                      </font>
             </Label>
-                  <Button fx:id="enviarTrama" layoutX="526.0" layoutY="356.0" mnemonicParsing="false" onAction="#handleSendTraceAction" text="Send trace" styleClass="button">
+                  <Button fx:id="enviarTrama" layoutX="526.0" layoutY="356.0" mnemonicParsing="false" onAction="#handleSendTraceAction" styleClass="button" text="Send trace">
                      <font>
                         <Font size="14.0" />
                      </font>
             </Button>
-                  <Button fx:id="setconnection" layoutX="500.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleSetConnectionAction" text="Set connection" styleClass="button">
+                  <Button fx:id="setconnection" layoutX="500.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleSetConnectionAction" styleClass="button" text="Set connection">
                      <font>
                         <Font size="14.0" />
                      </font>

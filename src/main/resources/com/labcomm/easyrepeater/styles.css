@@ -14,8 +14,7 @@
 .button:hover {
     -fx-background-color: rgba(143, 150, 247, 0.27);
 }
-
-.choice-box1 {
+.choice-box {
     -fx-background-color: white;
     -fx-text-fill: black;
 }
@@ -26,8 +25,17 @@
     -fx-padding: 3px;
     -fx-font-size: 12px;
 }
-
-
+.menu-bar {
+    -fx-background-color: rgba(12, 35, 95, 0.69);
+    -fx-font-size: 12px;
+}
+.menu-item .label {
+    -fx-text-fill: black;
+}
+.menu-item .label:hover {
+    -fx-text-fill: white;
+    -fx-background-color:#688BE6;
+}
 .label {
     -fx-text-fill: white;
 }
