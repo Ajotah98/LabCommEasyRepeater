@@ -20,7 +20,7 @@ A JavaFX application for establishing a connection and sending traces between a 
 ```javac initMain.java && java initMain```
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/91145535/217058534-58491462-0f9b-499d-9b1c-843a3ce5c735.png)
+![image](https://user-images.githubusercontent.com/91145535/217627232-505b996a-928d-4bfa-b92e-8ea84c2fe45f.png)
 
 
 ## Usage
